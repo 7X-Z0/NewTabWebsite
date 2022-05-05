@@ -4,27 +4,31 @@
         <link href="styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>
-            New Tab
-        </h1>
+        <div>
+            <img src="Assets/sakura.png" style="display: inline-flex; padding-left: 40%;"/>
+            <h1 style="display: inline-flex; padding-left: 5px;">
+                New Tab
+            </h1>
+        </div>
         <div class="container">
-            <form action="" class="search-bar">
-                <input type="text" placeholder="Search" name="q">
+            <form id="form" action="" class="search-bar">
+                <input type="search" id="query" placeholder="Search" name="q">
                 <button type="submit">
                     <img src="assets/search.png">
                 </button>
             </form>
         </div>
         <div class="container2">
-            <button class="btn draw-border">
+            <button class="btn draw-border" onclick="window.location.href='https://github.com/7X-Z0'">
                 Github
             </button>
-            <button class="btn draw-border">
+            <button class="btn draw-border" onclick="window.location.href='https://auth.dadeschools.net/_auth/dsLogon.aspx?ru=aHR0cDovL21kY3BzcG9ydGFsLmRhZGVzY2hvb2xzLm5ldC8=">
                 Portal
             </button>
-            <button class="btn draw-border">
+            <button class="btn draw-border" onclick="window.location.href='https://www.google.com/'">
                 Google
             </button>
+            <script src="app.js" defer></script>
         </div>
     </body>
 </html>
