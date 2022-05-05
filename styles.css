@@ -67,7 +67,7 @@ h1
     color: #58afd1;
     transition: color 0.25s 0.0833333333s;
     position: relative;
-  }
+}
   .draw-border::before, .draw-border::after {
     border: 0 solid transparent;
     box-sizing: border-box;
@@ -113,9 +113,7 @@ h1
     padding: 1em 2em;
     letter-spacing: 0.05rem;
   }
-  .btn:focus {
-    outline: 2px dotted #55d7dc;
-  }
   .container2{
+      padding-left: 36%;
       align-items: center;
   }
